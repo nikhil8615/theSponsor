@@ -1,0 +1,113 @@
+.CreateEvent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 70px 0px 50px;
+  margin-bottom: 100px;
+}
+.CreateEvent_top_heading {
+  color: #0f61ff;
+  font-size: 36px;
+  font-weight: 600;
+}
+.CreateEvent_form {
+  padding-left: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.CreateEvent_form_left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.CreateEvent_form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.CreateEvent_form1 label {
+  font-size: 16px;
+}
+.CreateEvent_form1 input {
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 15px;
+  width: 516px;
+}
+.CreateEvent_form2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CreateEvent_form2_left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.CreateEvent_form2_left input {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 249px;
+}
+.CreateEvent_form2_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.CreateEvent_form2_right input {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 249px;
+}
+.CreateEvent_form1 textarea {
+  width: 516px;
+  height: 213px;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.CreateEvent_form_right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.CreateEvent_form_right_top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.createEvent_image {
+  border: 1px solid #0f61ff;
+  width: 394px;
+  height: 262px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f61ff;
+}
+.creteevent_right_button button {
+  padding: 20px 60px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(
+    rgba(42, 167, 255, 255),
+    rgba(19, 107, 255, 254)
+  );
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}

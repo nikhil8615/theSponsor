@@ -9,6 +9,10 @@ import LoginPage from "./Pages/LoginPage/LoginPage";
 import HomeLoggedInpage from "./Pages/HomeLoggedInpage/HomeLoggedInpage";
 import LoggedInMessage from "./Pages/LoggedInMessage/LoggedInMessage";
 import LoggedInProfileEdit from "./Pages/LoggedInProfileEdit/LoggedInProfileEdit";
+import CreateEvent from "./Pages/CreateEvent/CreateEvent";
+import LoggedInMessageDetail from "./Pages/LoggedInMessageDetail/LoggedInMessageDetail";
+import EventDetailsPage from "./Pages/EventDetailsPage/EventDetailsPage";
+import DiscoverEvent from "./Pages/DiscoverEvent/DiscoverEvent";
 
 const App = () => {
   return (
@@ -22,6 +26,10 @@ const App = () => {
         <Route path="/home" element={<HomeLoggedInpage />} />
         <Route path="/message" element={<LoggedInMessage />} />
         <Route path="/editProfile" element={<LoggedInProfileEdit />} />
+        <Route path="/createEvent" element={<CreateEvent />} />
+        <Route path="/message-details" element={<LoggedInMessageDetail />} />
+        <Route path="/eventDetails" element={<EventDetailsPage />} />
+        <Route path="/discover" element={<DiscoverEvent />} />
       </Routes>
     </>
   );

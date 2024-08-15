@@ -20,28 +20,30 @@ const HomeLoggedInpage = () => {
             </div>
           </div>
           <div className="HomeLoggedInpage_top_bot">
-            <div className="HomeLoggedInpage_top_bot_left">
-              <div className="HomeLoggedInpage_top_bot_left_img">
-                <img src={img1} alt="" />
-              </div>
-              <div className="HomeLoggedInpage_top_bot_left_details">
-                <div className="logged_name_event">
-                  <p>Event Name</p>
-                  <input
-                    type="checkbox"
-                    className="checkbox-container"
-                    name=""
-                    id=""
-                  />
+            <Link to="/eventDetails">
+              <div className="HomeLoggedInpage_top_bot_left">
+                <div className="HomeLoggedInpage_top_bot_left_img">
+                  <img src={img1} alt="" />
                 </div>
-                <p className="track_logged">
-                  Track campaign performance and see the direct impact of your
-                  sponsorships.
-                </p>
-                <p className="LoggedIn_price">₹5,000 - ₹25,000 </p>
+                <div className="HomeLoggedInpage_top_bot_left_details">
+                  <div className="logged_name_event">
+                    <p>Event Name</p>
+                    <input
+                      type="checkbox"
+                      className="checkbox-container"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <p className="track_logged">
+                    Track campaign performance and see the direct impact of your
+                    sponsorships.
+                  </p>
+                  <p className="LoggedIn_price">₹5,000 - ₹25,000 </p>
+                </div>
               </div>
-            </div>
-            <Link>
+            </Link>
+            <Link to={"/createEvent"}>
               <div className="HomeLoggedInpage_top_bot_right">
                 <div className="HomeLoggedInpage_top_bot_right_img">
                   {/* <img src={img1} alt="" /> */}
